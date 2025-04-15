@@ -16,12 +16,12 @@
         </config-file>
 
         <podspec>
-            <config>
-                <source url="https://cdn.cocoapods.org/"/>
-            </config>
             <pods use-frameworks="true">
-                <pod name="Payments" spec="~> 0.9.20.0"/>
-                <pod name="AccountsSDK" spec="~> 0.9.20.0"/>
+                <!--<pod name="AppsFlyerFramework" git="https://github.com/AppsFlyerSDK/AppsFlyerFramework.git" tag="6.16.2" podspec="AppsFlyerFramework.podspec" />-->
+                <pod name="AlCore" git="https://github.com/Alviere/alviere-core-ios.git" tag="0.9.27" />
+                <pod name="AlCamera" git="https://github.com/Alviere/alviere-camera-ios.git" tag="1.3.0" />
+                <pod name="Payments" git="https://github.com/alviere/alviere-payments-ios.git" tag="0.9.27" />
+                <pod name="AccountsSDK" git="https://github.com/Alviere/alviere-accounts-ios.git" tag="0.9.27" />
             </pods>
         </podspec>
         
