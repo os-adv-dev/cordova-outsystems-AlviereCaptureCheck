@@ -17,10 +17,10 @@
 
         <podspec>
             <pods use-frameworks="true">
-                <pod name="AlCore" git="https://github.com/Alviere/alviere-core-ios.git" tag="0.9.27" />
-                <pod name="AlCamera" git="https://github.com/Alviere/alviere-camera-ios.git" tag="1.3.0" />
-                <pod name="Payments" git="https://github.com/alviere/alviere-payments-ios.git" tag="0.9.27" />
-                <pod name="AccountsSDK" git="https://github.com/Alviere/alviere-accounts-ios.git" tag="0.9.27" />
+                <pod name="AlCore" spec="https://raw.githubusercontent.com/os-adv-dev/cordova-outsystems-AlviereCaptureCheck/main/src/ios/podspec/AlCore.podspec" />
+                <pod name="AlCamera" spec="https://raw.githubusercontent.com/os-adv-dev/cordova-outsystems-AlviereCaptureCheck/main/src/ios/podspec/AlCamera.podspec" />
+                <pod name="Payments" spec="https://raw.githubusercontent.com/os-adv-dev/cordova-outsystems-AlviereCaptureCheck/main/src/ios/podspec/Payments.podspec" />
+                <pod name="AccountsSDK" spec="https://raw.githubusercontent.com/os-adv-dev/cordova-outsystems-AlviereCaptureCheck/main/src/ios/podspec/AccountsSDK.podspec" />
             </pods>
         </podspec>
 <!--        
