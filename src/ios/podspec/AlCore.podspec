@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://alviere.com/'
   s.source           = { 
     :http => "https://github.com/Alviere/alviere-core-ios/releases/download/#{s.version}/AlCore.xcframework.zip", 
-    :sha256 => '4124d593aa711edf2fd862a52d306e276ada0d30f183093b32c20ef9e142d1'
+    :sha256 => '4124d5d93aa711ede2fd862a52a6306e276ada0d30f183093b32c20ef9e142d1'
   }
   s.summary          = 'The core iOS Alviere framework.'
   s.platform         = :ios, '13.0'
